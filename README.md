@@ -1,6 +1,6 @@
 If you use this repository, please cite it as:
 
-Peixoto, B. & Pinto, J.O. (2025). OASIS-2 Conversion Prediction: A Reproducible Machine Learning Pipeline in R. GitHub repository, https://github.com/peixotopsi-ctrl/oasis_predict
+Peixoto, B. & Pinto, J.O. (2025). OASIS-2 Conversion Prediction: A Reproducible Machine Learning Pipeline in R. GitHub repository, https://github.com/peixotopsi-ctrl/oasis_predict. DOI: 10.5072/zenodo.386660
 ---
 
 ## 🔁 Reproducibility and Usage
