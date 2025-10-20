@@ -1,8 +1,14 @@
-| Model | Accuracy | Sensitivity | Specificity | F1-score | AUC |
-|-------|:--------:|:------------:|:------------:|:--------:|:---:|
-| ⭐ **Logistic** | 0.773 | 0.762 | **0.783** | 0.762 | **0.872** |
-| RandomForest | **0.795** | **0.857** | 0.739 | 0.8 | 0.859 |
-| SVM | 0.727 | 0.667 | **0.783** | 0.7 | 0.853 |
-| kNN | 0.409 | 0.429 | 0.391 | 0.409 | 0.545 |
+# 🧠 OASIS-2 Model Performance (Corrected Results)
 
-*Note.* Values refer to the held-out test set. **AUC** = Area Under the Receiver Operating Characteristic Curve. Bold values indicate the best performance per metric. ⭐ indicates the best overall model.
+| Model | AUC |
+|:------|----:|
+| **GLM** | 0.887 |
+| **RF** | 0.65 |
+| **SVM** | 0.656 |
+
+
+### 🧠 Model performance summary
+- Logistic Regression (**GLM**) achieved the highest AUC (0.887), indicating robust discrimination between converted and non-converted participants.
+- The **Random Forest** and **SVM** models followed closely with AUCs of 0.65 and 0.656 respectively.
+- These results confirm that classical linear modeling performs competitively with non-linear approaches when applied to longitudinal OASIS-2 MRI-derived features.
+

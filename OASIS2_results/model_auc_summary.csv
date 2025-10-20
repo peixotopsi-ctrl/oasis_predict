@@ -1,0 +1,4 @@
+Model,AUC
+GLM,0.887
+RF,0.65
+SVM,0.656
