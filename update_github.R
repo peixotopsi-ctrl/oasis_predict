@@ -1,6 +1,6 @@
 # ============================================================
 # 🔄 update_github.R
-# Automatiza o commit e push para GitHub
+# Automatiza commit + push + abre o repositório no GitHub
 # Bruno Peixoto | 2025
 # ============================================================
 
@@ -15,7 +15,7 @@ system("git status")
 cat("\n➕ Adding all updated files...\n")
 system("git add .")
 
-# 3️⃣ Commit com mensagem
+# 3️⃣ Commit com mensagem personalizada
 commit_msg <- readline(prompt = "📝 Enter commit message: ")
 if (commit_msg == "") commit_msg <- "Update OASIS2 pipeline and results"
 cat("\n💾 Committing changes...\n")
@@ -28,6 +28,10 @@ system("git pull --rebase origin main")
 # 5️⃣ Enviar para GitHub
 cat("\n🚀 Pushing updates to GitHub...\n")
 system("git push origin main")
+
+# 6️⃣ Abrir automaticamente o repositório no navegador
+cat("\n🌐 Opening GitHub repository in your browser...\n")
+browseURL("https://github.com/peixotopsi-ctrl/oasis_predict")
 
 cat("\n✅ Repository updated successfully!\n")
 
